@@ -1,0 +1,1317 @@
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+/* navbar css start */
+
+.navbr{
+	 border-bottom: 2px solid #102bb9;
+	 
+}
+
+
+.navbar-nav{
+   margin-right: 5%;
+}
+
+.navbar-nav h4{
+  font-size: 18px;
+  margin-top: 4%;
+  font-weight: 600
+}
+
+.navbar-nav h4 span{
+     color:#102bb9;
+}
+.navbar-nav .contact{
+	  border: 2px solid #102bb9;
+      padding: 5px 30px !important;
+      color: #102bb9 !important;
+      display: inline-block;
+}
+
+
+/* navbar css end */
+
+
+/* header section css start */
+.head .img img{
+	width: 70%;
+    margin-left: 64px;
+    margin-top: -17px;
+}
+
+
+
+
+.head .heading{
+	  padding: 15%  20% ;
+	  padding-bottom: 0%;
+}
+
+.head .heading h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.head .heading h1 span{
+	color: #102bb9;
+	font-size: 35px;
+    
+}
+
+.checkbox p {
+    margin-left: 9px;
+    margin-top: -41px;
+    font-size: 14px;
+}
+
+
+.link{
+	  display: inline-block;
+	  background: #102bb9;
+	  margin-left: 20%;
+	  padding: 5px 6px;
+	  border-radius: 5px;
+	  padding-bottom: 0;
+}
+
+.link h6{
+	padding: 3px 2px;
+}
+
+.link h6 a{
+	 padding: 5px 3px;
+	 color: #ffffff;
+	 text-decoration: none;
+}
+
+.text{
+	padding: 0 5% ;
+}
+
+.text p{
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.contact_card{
+    box-shadow: none;
+}
+
+.inquiry-now{
+    padding: 20px 44px;
+}
+
+.inquiry-now .mail{
+    width: 100%;
+    border-radius: unset;
+    border: none;
+    border-bottom: 1px solid #584db3;
+    font-size: 14px;
+}
+
+.inquiry-now .submit{
+    border-radius: 10px;
+    border: 2px solid cornflowerblue;
+    color: #ffffff;
+}
+
+.mobile-version{
+    display: none;
+}
+.plan{
+    color: #ffffff; 
+    margin-top: 90%;
+}
+
+.icon-link {
+     color: #ffffff;
+     margin-top: 25%;
+
+}
+
+.plan span{
+    color: #ffa300; 
+    font-weight: 600;
+    animation: blink-animation 2s steps(5, start) infinite;
+}
+
+
+    @keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+
+.inquiry-now .gender{
+    width: 4%;
+    border-radius: unset;
+    border: none;
+    border-bottom: 1px solid #584db3;
+}
+
+ select{
+    border-radius: unset;
+    border: none;
+    border-bottom: 1px solid #584db3;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+    margin-top: -37px;
+}
+
+
+/* header section css end */
+
+/* CheckBox */
+.checkbox{
+        display: inline-flex
+}
+
+
+
+.required-text{
+    text-align: center;
+    color: #102bb9;
+    font-weight: 600;
+    animation: blink-animation 2s steps(5, start) infinite;
+}
+
+ @keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+
+
+/* CheckBox end */
+
+/* section 3  style  start */
+       .section3 .card{
+       
+       	  
+       	   border-radius: 10px;
+       	   cursor: pointer;
+       	  
+       }
+       .section3 .main{
+       	 box-shadow: 0 20px 20px rgb(0 0 0 / 0.2);
+          padding: 15px 20px;
+               margin: 20px 0;
+               border-radius: 10px;
+       }
+ 
+  .section3 .main2{
+    padding: 15px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+
+  }
+       .section3 .main2:hover{
+           box-shadow: 0 10px 20px rgb(0 0 0 / 0.2);
+            
+       }
+   .section3 .card img{
+   	width: 20%;
+   } 
+   
+  .section3 .text {
+  	padding: 5px 86px;
+  }
+
+.secton3 .card h6{
+	padding: 3px 6px;
+	font-weight: 700;
+}
+/* section 3 style end */
+
+
+/* insurance section style start */
+ .insurance .content{
+       padding-bottom: 0px;
+       margin-top: 10%;
+ }
+
+ .insurance .content h3{
+     padding: 50px 84px;
+     font-weight: 700;
+     padding-bottom: 30px;
+     padding-top: 100px;
+     text-align: center;
+
+ }
+
+.btn {
+	display: inline-block;
+	background:#102bb9;
+	margin-left: 15%;
+}
+
+.btn a{
+	color: #ffffff;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+ .insurance-list .card{
+ 	margin: 30px 0px;
+ 	padding: 20px 0px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 3px solid #102bb9;
+   
+
+ }
+
+ .insurance-list .shadow-card {
+ 	box-shadow: 0 20px 20px rgb(0 0 0 / 0.2);
+ }
+
+ .insurance-list .shadow-card1:hover{
+      box-shadow: 0 20px 20px rgb(0 0 0 / 0.2);
+ }
+.insurance-list .icon img{
+	 width: 32%;
+	 border: 2px solid #102bb9;
+	 display: inline-block;
+	 margin-left: 35%;
+	 padding: 5px;
+	 background: #ffffff;
+	 border-radius: 50%;
+	 box-shadow: 0 3px 5px rgb(0 0 0 / 0.2);
+}
+
+.insurance-list .icon h4{
+	 text-align: center;
+     font-weight: 600;
+}
+
+
+.insurance-list .icon p{
+     text-align: center;
+}
+
+.safe h3{
+   text-align: center;
+   font-weight: 600;
+}
+
+.insurance-list a{
+      text-decoration: none!important;
+      text-align: center!important;
+      margin-left: 12%;
+      background: #102bb9;
+      padding: 5px;
+     color: #fff;
+}
+/* insurance section style end */
+
+
+/* insurance-term policy style */
+
+
+.insurance-term{
+	padding: 40px 20px;	
+}
+
+.insurance-term .card{
+	padding: 10px;
+	border: 3px solid #ffffff;
+    margin-top: 3px;
+    background: #102bb9;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.insurance-term .card h5{
+    text-align: center;
+}
+.insurance-term .card:hover{
+	box-shadow: 0 20px 20px rgb(0 0 0 / 0.2);
+}
+.insurance-term .card2{
+	margin-left: -28px;
+}
+
+
+.insurance-term .card4{
+	padding: 56px;
+   margin-left: -43px;
+   margin-top: -12px;
+   background: #ffffff;
+   color: #102bb9;
+   box-shadow: 0 20px 20px rgb(0 0 0 / 0.2);
+}
+
+.insurance-term .card4:hover{
+	box-shadow: 0 10px 10px rgb(0 0 0 / 0.2);
+}
+
+.insurance-term .card4 a{
+	text-decoration: none;
+     border: 2px solid #102bb9;
+     text-align: center;
+     color: #ffffff;
+     padding: 10px 0px;
+     margin-top: 7px;
+     background: #102bb9;
+}
+
+
+/* Tagline  section style start  */
+  .tag {
+  	padding: 10px;
+  }
+
+  .tag .heading{
+  	margin-top: 20%;
+  }
+  .tag .heading h1{
+  	text-align: center;
+  	text-transform: capitalize;
+  }
+
+  .tag .heading p{
+  	color: #000;
+    margin-left: 5%;
+    margin-top: 18px;
+  }
+/* Tagline Section Style End */
+
+
+/* Help Section Style Start */
+ .help .heading{
+ 	padding: 40px 100px ;
+ }
+
+ .help .heading h1{
+ 	 font-weight: 600;
+ 	 text-transform: capitalize;
+ }
+
+ .help-center{
+ 	border: 1px solid gray;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 0.2);
+    padding: 20px 20px;
+     
+ }
+
+.circle-box{
+	width: 20px;
+	height: 20px;
+	background: #102bb9;
+	border-radius: 50%;
+}
+
+ .help-center2{
+ 	margin: 40px 10px;
+
+ }
+
+ .help-image{
+ 	padding: 20px;
+ }
+
+ .help-image img{
+ 	padding-top: 50px;
+ }
+/* Help Section Style End */
+
+
+
+
+/* Choose plan style start */
+ 
+.choose-plan{
+	padding: 60px 20px;
+	background: #102bb9;
+	 margin: 100px 0px;
+	 border-radius: 10px;
+}
+
+.choose-plan h2{
+	text-align: center;
+	color: #ffffff;
+}
+
+.choose-plan p{
+	text-align: center;
+	color: #ffffff;
+}
+
+.choose-plan .form{
+	padding: 20px 190px;
+
+}
+.choose-plan form{
+	background: #ffffff;
+	border-radius: 10px;
+}
+
+.choose-plan form input{
+	margin-left: 62px;
+    padding: 8px 101px;
+    border: none;
+}
+
+.choose-plan form button{
+	  display: inline-block;
+      margin-left: 0;
+      color: #ffffff;
+}
+
+/* Choose plan style end */
+
+
+
+/*Insurance company list start*/
+   .insurance-company .heading{
+   	text-align: center;
+   }
+
+   .insurance-company .heading h1{
+   	   text-transform: capitalize;
+   	   font-weight: 600;
+   }
+/*Insurance company list end*/
+
+
+/* footer  section style start */
+  
+ .main-footer {
+ 	background:#102bb9 ;
+ }
+  
+  .main-footer footer{
+  	padding: 50px;
+  	
+  }
+
+  .main-footer .text{
+  	  color: #ffffff;
+  	  font-weight: 600;
+
+  }
+ .main-footer footer ul {
+     margin-left: 20%;
+ }
+
+ .main-footer footer ul li{
+ 	list-style: none;
+ }
+
+
+ 
+ .main-footer footer ul li a{
+ 	text-decoration: none;
+ 	color: #ffffff;
+ }
+
+ .copyright{
+ 	border-top: 1px solid #ffffff;
+ }
+ .copyright .icon-link{
+ 	   margin-left: 60%;
+ 	   margin-top: 4px;
+}
+
+.copyright .icon-link .fab{
+	color: #ffffff;
+	margin-left: 12px;
+	font-size: 24px;
+}
+/* foooter section style end */
+
+
+/* Modal body css style start  */
+ 
+   .term-plan .card{
+   	margin: 10px;
+   	padding: 10px 5px;
+   }
+
+   
+   .term-plan .card h5{
+   	  text-align: center;
+   	  text-transform: capitalize;
+   }
+
+
+   .term-plan .card p{
+   	    display: inline-block;
+        background: #102bb9;
+        margin-left: 0%;
+        padding: 9px 0;
+        font-weight: 700;
+        color: #ffffff;
+        border-radius: 10px;
+    }
+
+   
+/* contact form */
+ .card8 p{
+ 	background: none !important;
+ 	color: #102bb9!important;
+ 	border-radius: none!important;
+ 	font-weight: 500!important;
+ }
+/* contact form wnd */
+/* Modal body css style end */
+
+
+/* scroll btn start */
+  
+  #myBtn{
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #00A8FF;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+ }
+
+  #myBtn:hover{
+    background: #606060;
+  }
+/* scroll btn end */
+
+
+
+
+
+
+/*media query start*/
+@media (max-width: 575.98px){
+    .plan {
+    color: #ffffff;
+    margin-top: 0%;
+}
+
+.insurance .content h3 {
+     padding: 0px!important;
+    font-weight: 700;
+    padding-bottom: 30px;
+     padding-top: 5px!important;
+     padding-bottom: 5px!important;
+    text-align: center;
+}
+.Faqus .faqus-content li img {
+    width: 15px!important;
+    position: absolute;
+    margin-left: 59% !important;
+    margin-top: -19px;
+}
+.navbr a img{
+    margin-left: 52%;
+}
+
+.plan {
+    color: #1610e8;
+    margin-top: 0%;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.navbar-nav {
+    margin-right: 11%;
+}
+
+.navbar-nav h4 {
+    font-size: 18px;
+    margin-top: 4%;
+    font-weight: 600;
+}
+
+.icon-link {
+    color: #ffffff;
+    margin-top: 1%;
+}
+
+.head .heading {
+    padding: 5% 5%;
+    padding-bottom: 0%;
+}
+
+.head .heading h1 span {
+    color: #102bb9;
+    font-size: 28px;
+}
+
+
+.inquiry-now .submit {
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 12px;
+    margin-left: 0;
+    width: 100%;
+}
+.required-text {
+    text-align: center;
+    color: #102bb9;
+    font-weight: 600;
+    animation: blink-animation 2s steps(5, start) infinite;
+    font-size: 14px;
+}
+
+ .section3 .text {
+    padding: 31px 20px;
+}
+
+  .section3 .text .heading{
+    font-weight: 600;
+  }
+
+.head .img img {
+    width: 75%;
+    margin-left: 41px;
+    margin-top: -17px;
+}
+  .insurance .content h2 {
+    padding: 5px 4px;
+    font-weight: 700;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 20px;
+}
+ .cnm{
+    margin-left: 88px;
+ }
+
+ .insurance-term .card2 {
+    margin-left: 0px;
+}
+
+.insurance-term .card4 {
+    padding: 56px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background: #ffffff;
+    color: #102bb9;
+    box-shadow: 0 20px 20px rgb(0 0 0 / 0.2);
+    margin-top: 7px;
+}
+
+.insurance-term .card4 a{
+    margin-left: 0px;
+}
+
+.tag .heading h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+ .tag .heading p {
+    color: #acaba9;
+    margin-left: 5%;
+    margin-top: 18px;
+}
+
+.help .heading {
+    padding: 0px;
+    
+}
+
+.help .heading h1{
+     font-size: 21px;
+}
+
+.help-image img {
+    padding-top: 0px;
+    width: 100%;
+   border-radius: 10px;
+}
+.choose-plan .form {
+    padding: 0px;
+}
+
+.choose-plan form input {
+    margin-left: 0px;
+    padding: 18px 0px;
+    border: none;
+}
+
+.choose-plan form button{
+      position: absolute;
+      margin-left: -3px;
+}
+
+.main-footer .text h5{
+   margin-left: -20px;
+   font-weight: 600;
+}
+
+.copyright .icon-link {
+    margin-left: 32%;
+    margin-top: 4px;
+}
+
+.insurance-company .heading h1{
+    font-size: 28px;
+}
+
+ .main-footer .text p{
+    text-align: center;
+}
+
+.fl-rght{
+   float: right;
+}
+
+.mobile-version{
+    display: block;
+}
+
+.desktop-version{
+    display: none;
+}
+input[type="checkbox"] {
+    margin-top: -24px;
+}
+
+.text {
+    padding: 0 5%;
+}
+
+
+.text p{
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    text-align: left!important;
+}
+
+
+.main-footer footer{
+   padding: 20px;
+}
+
+select {
+    width: 100%!important;
+    border-radius: unset;
+    border: none;
+    border-bottom: 1px solid #584db3;
+    font-size: 14px!important;
+    font-weight: 600!important;
+}
+
+.inquiry-now {
+    padding: 2px 4px!important;
+}
+
+.Incomemail{
+    font-size: 12px!important;
+    font-weight: 600;
+}
+
+.mobile-version .card{
+    background: #ffffff;
+    border: 3px solid #ffffff;
+    margin-top: 5%!important;
+    padding: 10px 20px;
+}
+
+.checkbox p {
+    margin-left: 9px;
+    margin-top: -28px;
+    font-size: 14px;
+}
+
+
+  
+.question .container{
+    margin: 0 auto;
+  padding: 4rem;
+  width: 23rem!important;
+}
+
+.accordion button .accordion-title {
+    padding: 1em 1.5em 1em 0;
+    color: #000;
+    font-size: 17px!important;
+}
+
+.accordion button[aria-expanded='true'] + .accordion-content {
+    opacity: 1;
+    max-height: 80em!important;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+       .plan {
+    color: #ffffff;
+    margin-top: 0%;
+}
+
+.Incomemail{
+    font-size: 12px!important;
+    font-weight: 600;
+}
+.plan {
+    color: #1610e8;
+    margin-top: 0%;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.mobile-version .card{
+    background: #ffffff;
+    border: 3px solid #ffffff;
+    margin-top: 5%!important;
+    padding: 10px 20px;
+}
+.inquiry-now {
+    padding: 2px 4px!important;
+}
+
+select {
+    width: 100%!important;
+    border-radius: unset;
+    border: none;
+    border-bottom: 1px solid #584db3;
+    font-size: 14px!important;
+    font-weight: 600!important;
+}
+
+.insurance .content h3 {
+     padding: 0px!important;
+    font-weight: 700;
+    padding-bottom: 30px;
+     padding-top: 5px!important;
+     padding-bottom: 5px!important;
+    text-align: center;
+}
+.icon-link {
+    color: #ffffff;
+    margin-top: 1%;
+}
+
+input[type="checkbox"] {
+    margin-top: -24px;
+}
+
+.text {
+    padding: 0 5%;
+}
+.inquiry-now .submit {
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 12px;
+    margin-left: 0;
+    width: 100%;
+}
+
+.Faqus .faqus-content li img {
+    width: 15px!important;
+    position: absolute;
+    margin-left: 59% !important;
+    margin-top: -19px;
+}
+.required-text {
+    text-align: center;
+    color: #102bb9;
+    font-weight: 600;
+    animation: blink-animation 2s steps(5, start) infinite;
+    font-size: 14px;
+}
+
+ .section3 .text {
+    padding: 31px 20px;
+}
+
+  .section3 .text .heading{
+    font-weight: 600;
+  }
+
+  .insurance .content h2 {
+    padding: 5px 4px;
+    font-weight: 700;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 20px;
+}
+ .cnm{
+    margin-left: 77px;
+ }
+
+ .insurance-term .card2 {
+    margin-left: 0px;
+}
+
+.insurance-term .card4 {
+    padding: 56px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background: #ffffff;
+    color: #102bb9;
+    box-shadow: 0 20px 20px rgb(0 0 0 / 0.2);
+    margin-top: 7px;
+}
+
+.insurance-term .card4 a{
+    margin-left: 0px;
+}
+
+.head .heading {
+    padding: 5% 5%;
+    padding-bottom: 0%;
+}
+
+.head .heading h1 span {
+    color: #102bb9;
+    font-size: 28px;
+}
+
+.tag .heading h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+ .tag .heading p {
+    color: #acaba9;
+    margin-left: 5%;
+    margin-top: 18px;
+}
+
+.help .heading {
+    padding: 0px;
+    
+}
+
+.help .heading h1{
+     font-size: 21px;
+}
+
+.help-image img {
+    padding-top: 0px;
+    width: 100%;
+   border-radius: 10px;
+}
+.choose-plan .form {
+    padding: 0px;
+}
+
+.choose-plan form input {
+    margin-left: 0px;
+    padding: 18px 0px;
+    border: none;
+}
+
+.choose-plan form button{
+      position: absolute;
+      margin-left: -3px;
+}
+
+.main-footer .text h5{
+   margin-left: -21px!important;
+   font-weight: 600;
+}
+
+.copyright .icon-link {
+    margin-left: 32%;
+    margin-top: 4px;
+}
+
+.insurance-company .heading h1{
+    font-size: 28px;
+}
+
+.main-footer .text p{
+    text-align: center;
+}
+
+.mobile-version{
+    display: block;
+}
+
+.desktop-version{
+    display: none;
+}
+
+.checkbox p {
+    margin-left: 9px;
+    margin-top: -29px;
+    font-size: 14px;
+}
+}         
+
+@media (min-width: 768px) and (max-width: 991.98px){
+         .plan {
+
+       color: #ffffff;
+       margin-top: 0%;
+    }
+    .mobile-version{
+    display: none;
+}
+
+    .icon-link {
+    color: #ffffff;
+    margin-top: 1%;
+}
+
+input[type="checkbox"]{
+    box-sizing: border-box;
+    padding: 0;
+    margin-top: -55px;
+}
+
+.head .heading h1 {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.head .heading h1 span {
+    color: #102bb9;
+    font-size: 33px;
+}
+
+.text {
+    padding: 0 17%;
+
+}
+
+.head .img img {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -17px;
+}
+
+.insurance .content h2 {
+    padding: 5px 15px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    padding-top: 44px;
+    font-size: 23px;
+}
+
+.insurance-list .icon h4 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.insurance-term .card {
+    padding: 10px;
+    margin-top: 3px;
+    background: #102bb9;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.insurance-term .card h4{
+    font-size: 18px;
+}
+
+.insurance-term .card4 {
+    padding: 10px;
+    margin-top: -11px;
+    background: #ffffff;
+    color: #102bb9;
+    text-align: center;
+    cursor: pointer;
+}
+
+ .insurance-term .card4{
+    font-size: 18px;
+ }
+
+ .insurance-term .card4 a {
+    text-decoration: none;
+    border: 2px solid #102bb9;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0px;
+    margin-top: 7px;
+    background: #102bb9;
+    margin-left: 0px;
+}
+.tag .heading{
+    margin-top: 0px;
+}
+ .tag .heading h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 23px;
+  
+    font-weight: 600;
+}
+
+.help-image {
+    padding: 0px;
+}
+
+.help-image img {
+    padding-top: 0px;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.choose-plan .form {
+    padding: 20px 16px;
+}
+ 
+ .choose-plan form input {
+    margin-left: 11px;
+    padding: 8px 101px;
+    border: none;
+}
+
+ .help .heading {
+    padding: 52px 0px;
+}
+
+.help .heading h1 {
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+
+.main-footer .text h5{
+    margin-left: -32px;
+}
+
+}
+/* media query end */
+
+.question .container{
+    margin: 0 auto;
+  padding: 4rem;
+  width: 50rem;
+}
+
+.accordion .accordion-item {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion .accordion-item button[aria-expanded='true'] {
+  border-bottom: 1px solid #102bb9;
+}
+
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: #102bb9;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.accordion button:hover,
+.accordion button:focus {
+  cursor: pointer;
+  color: #03b5d2;
+}
+
+.accordion button:hover::after,
+.accordion button:focus::after {
+  cursor: pointer;
+  color: #03b5d2;
+  border: 1px solid #03b5d2;
+}
+
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+  color: #000;
+}
+
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordion button[aria-expanded='true'] {
+  color: #03b5d2;
+}
+.accordion button[aria-expanded='true'] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded='true'] + .accordion-content {
+  opacity: 1;
+  max-height: 25em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+
+}
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+   background: #102bb9;
+   color: #fff;
+   padding: 0 10px;
+}
+.accordion .accordion-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 2em 0;
+}
+
+
+.desktop-version .text{
+      padding: 0 20%;
+}
